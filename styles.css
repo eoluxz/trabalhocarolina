@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.botao {
+    text-decoration: none;
+    color: white;
+}
+
+.bot {
+    color: white;
+}
+
+.logo {
+    padding-left: 10px;
+    
+}
+
+
+body {
+    background-color: #353535;
+}
+
+#conteudo {
+    padding: 150px 15px 0 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.loud {
+    color: #00ff1b;
+}
+
+.imagem {
+    border: solid 2px #00ff1b;
+}
+
+#conteudo2 {
+    padding-top: 50px;
+    color: white;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulos {
+    text-align: center;
+    color: white;
+
+}
+
+
+.jogos {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.paragrafo__conteudo2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#conteudo3 {
+    padding: 80px 0 50px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.insta {
+    text-decoration: none;
+    color: white;
+}
+
+.insta:hover {
+    color: aqua;
+}
+
+.rodape {
+    background-color: #000000;
+    padding: 30px;
+    color: #00ff1b;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.redes {
+    text-decoration: none;
+    color: white;
+}
+
+.redes:hover {
+    color: aqua;
+}
